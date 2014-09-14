@@ -6,7 +6,7 @@ threadsafe: true
 
 handlers:
 - url: /.*
-  script: mail.app
+  script: phase1.application
 
 libraries:
 - name: webapp2
