@@ -1,12 +1,15 @@
-application: airy-web-701
+application: helloworld0923
 version: 1
 runtime: python27
 api_version: 1
 threadsafe: true
 
 handlers:
+#- url: /.*
+#  script: phase1.application
 - url: /.*
-  script: mail.app
+  script: trend.app
+  login: admin
 
 libraries:
 - name: webapp2
