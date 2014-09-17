@@ -1,0 +1,15 @@
+application: airy-web-701
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /api.*
+  script: web_api.application
+- url: /.*
+  script: web_ui.application
+libraries:
+- name: webapp2
+  version: latest
+
