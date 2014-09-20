@@ -1,4 +1,4 @@
 cron:
-#  - description: trending job
-#    url: /
-#    schedule: every 1 minutes
+  - description: trending job
+    url: /count
+    schedule: every 1 minutes
